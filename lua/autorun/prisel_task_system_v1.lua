@@ -3,27 +3,27 @@ if SERVER then
 	{
 		name = "Travail pénitentiaire ",
 		time = 1000
-	}  
+	},  
 	{
 		name = "Cantine ",
 		time = 600
-	} 
+	}, 
 	{
 		name = "Sport ",
 		time = 600
-	} 
+	}, 
 	{
 		name = "Douches ",
 		time = 500
-	}
+	},
 	{
 		name = "Cellule ",
 		time = 500
-	}
+	},
 	{
 		name = "Jeux ",
 		time = 1200
-	}
+	},
 	{
 		name = "Temps libre ",
 		time = 1200
