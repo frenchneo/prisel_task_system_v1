@@ -1,33 +1,35 @@
 if SERVER then
-	priselTimer = {}
-	priselTimer[1] = {
+	priselTimer = {
+	{
 		name = "Travail pénitentiaire ",
 		time = 1000
-	}  
-	priselTimer[2] = {
+	},  
+	{
 		name = "Cantine ",
 		time = 600
-	} 
-	priselTimer[3] = {
+	}, 
+	{
 		name = "Sport ",
 		time = 600
-	} 
-	priselTimer[4] = {
+	}, 
+	{
 		name = "Douches ",
 		time = 500
-	}
-	priselTimer[5] = {
+	},
+	{
 		name = "Cellule ",
 		time = 500
-	}
-	priselTimer[6] = {
+	},
+	{
 		name = "Jeux ",
 		time = 1200
-	}
-	priselTimer[7] = {
+	},
+	{
 		name = "Temps libre ",
 		time = 1200
-	} 
+	}
+	}
+		
 	priselActual = 1		locasound = Sound("sound/timersound.mp3")	
 	SetGlobalString("PriselGlobalTacheName",priselTimer[priselActual].name)
 		SetGlobalInt("PriselGlobalTacheTime",priselTimer[priselActual].time + CurTime())
